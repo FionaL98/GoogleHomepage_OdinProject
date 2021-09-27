@@ -1,0 +1,129 @@
+/* THE PAGE */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin: 0;
+    padding: 0;
+}
+
+/* MAIN AND FOOTER MENU */
+    #top-menu:after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+    li {
+        display: inline;
+        padding: 10px;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    a {
+        color: gray;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .nav-left {
+        float: left;
+        padding: 10px 10px 10px 15px;
+    }
+    .nav-right {
+        float: right;
+        padding: 10px 15px 10px 10px;
+        
+    }
+    #grid-menu {
+        height: 30px;
+        vertical-align: middle;
+    }
+    #profile-img {
+        height: 30px;
+        border-radius: 45%;
+        vertical-align: middle;
+    }
+
+/* GOOGLE SEARCH AREA */
+#content {
+    width: 550px;
+    margin: 0 auto;
+}
+    #logo {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    #search {
+        position: relative;
+    }
+        #search img {
+            height: 20px;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        input[type=text] {
+            width: 525px;
+            border-radius: 25px;
+            border:1px solid #dedede;
+            padding: 10px;
+        }
+        #search:hover {
+            outline: none;
+            border-color: gray;
+            border-radius: 25px;
+            box-shadow: 0 0 10px  #ccc;
+
+        }
+    #buttons {
+        text-align: center;
+        padding: 30px;
+    }
+    #divider {
+            width: 10px;
+            display: inline-block;
+        } 
+    #button1 {
+        background-color: #f2f2f2;
+        border: 1px solid #f2f2f2;
+        border-radius: 4px;
+        color: #5F6368;
+        margin: 11px 4px;
+        padding: 10px 15px;
+        }
+    #button1:hover {
+        box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+        background-color: #f8f8f8;
+        border: 1px solid #c6c6c6;
+        color: #222;
+        }
+    #button2 {
+        background-color: #f2f2f2;
+        border: 1px solid #f2f2f2;
+        border-radius: 4px;
+        color: #5F6368;
+        margin: 11px 4px;
+        padding: 10px 15px;
+        }
+    #button2:hover {
+        box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+        background-color: #f8f8f8;
+        border: 1px solid #c6c6c6;
+        color: #222;
+        }
+
+footer {
+    background-color: #ededed;
+    width: 100%;
+}
+    p {
+        padding: 0px 10px 10px 25px;
+        color: gray;
+        margin-bottom: -5px;
+    }
